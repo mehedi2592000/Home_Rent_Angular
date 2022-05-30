@@ -1,0 +1,49 @@
+<!--
+<form ng-submit="login()">
+    <input type="text" ng-model="data.email"><br>
+    <input type="password" ng-model="data.password"><br>
+    <input type="submit" value="Login">
+</form>
+-->
+
+<!doctype html>
+<html >
+  <head>
+
+    
+  	
+    
+
+
+	</head>
+	<body>
+        
+        
+						<form action="#" class="signin-form"ng-submit="login()">
+			      		  <div class="form-group mt-3 ">
+			      			<input type="text" class="form-control"ng-model="data.Username" required>
+			      			<label class="form-control-placeholder" for="Username">Username</label>
+			      		   </div>
+		                   <div class="form-group">
+		                         <input id="password-field" type="password" class="form-control"  ng-model="data.Password"required>
+          		              <label class="form-control-placeholder" for="Password">Password</label>
+		                     <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+		                    </div>
+		                    <div class="form-group">
+		            	        <button type="submit"  value="Login" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+		                   </div>
+		            
+		                 </form>
+
+						 <div class="form-group">
+							<a href="#!demopage"><button type="submit"  value="demopage" class="bootstrapcdn">Back</button></a>
+					   </div>
+		         
+		        
+	
+
+	
+	</body>
+</html>
+
+
